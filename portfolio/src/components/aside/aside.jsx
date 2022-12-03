@@ -1,6 +1,6 @@
 import { AsideS } from "./styleAside"
 
-import fotoMinha from '/savioF.png'
+import fotoMinha from '/savioFAside.png'
 
 
 const Aside = () => {

@@ -17,15 +17,50 @@ export const AboutMeS = styled.section`
         }
         font-weight: 400;
     }
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     .iDo{
         background-color: black;
         width: 60%;
         display: flex;
         align-items: center;
         justify-content: center;
+        color: white;
+        h1{
+            
+        }
         div{
             width: 80%;
             height: 80%;
+
+            .tec{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 100px;
+                width: 100%;
+                svg{
+                    width: 40px;
+                    height: 40px;
+                    
+                }
+            :first-of-type{
+                border-bottom: 2px dashed ${({theme}) => theme.colors.primary};
+            }
+            }
+        }
+    }
+    .iNow{
+        width: 38%;
+        h1{
+            font-size: 25px;
+            margin: 0;
+        }
+        p{
+            font-size: 14px;
         }
     }
 

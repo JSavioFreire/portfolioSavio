@@ -6,13 +6,13 @@ export const HomeS = styled.section`
     display: flex;
 
     div{
-        width: 50%;
     }
     .left{
         text-shadow: 2px 2px 5px #1111111f;
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 70%;
         .write{
             width: 70%;
             display: flex;
@@ -78,8 +78,9 @@ export const HomeS = styled.section`
         position: relative;
         display: flex;
         justify-content: center;
+        width: 30%;
         img{
-            width: 500px;
+            width: 100%;
             position: absolute;
             bottom: 0;
         }

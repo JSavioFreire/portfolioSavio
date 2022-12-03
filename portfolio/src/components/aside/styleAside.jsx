@@ -6,7 +6,7 @@ export const AsideS = styled.aside`
         height: 100vh;
         top: 0;
         left: 0;
-        width: 20%;
+        width: 15%;
         background-color: ${({ theme }) => theme.colors.primary};
 
         .foto{
@@ -15,7 +15,7 @@ export const AsideS = styled.aside`
             width: 100%;
             position: relative;
             img{
-                width: 200px;
+                width: 100%;
                 position: absolute;
                 bottom: 0;
                 left: 50%;

@@ -2,21 +2,19 @@ import styled from "styled-components";
 
 export const AboutS = styled.section`
     background-color: ${({ theme }) => theme.colors.background};
-
     .margin{
         width: 80%;
         margin: 0 auto;
     }
     .allSection{
-        height: 100vh;
         width: 80%;
-        margin-left: 20%;
-
-
+        margin-left: 15%;
+        
         .title{
             display: flex;
             justify-content: center;
             align-items: center;
+            margin-bottom: -40px;
         }
         .NameTitle{
             font-size: 64px;
