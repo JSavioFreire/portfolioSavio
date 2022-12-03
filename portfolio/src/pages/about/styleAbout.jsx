@@ -14,7 +14,7 @@ export const AboutS = styled.section`
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-bottom: -40px;
+            margin-bottom: -60px;
         }
         .NameTitle{
             font-size: 64px;

@@ -1,22 +1,28 @@
 import Aside from "../../components/aside/aside"
 import AboutMe from "../../components/aboutMe/AboutMe"
-import { AboutS } from "./styleAbout"
 import Ex from "../../components/ex/Ex"
+import Portfolio from "../../components/portfolio/portfolio"
+import Contact from "../../components/contact/Contact"
+
+import { AboutS } from "./styleAbout"
+
 
 const About = () => {
     return (
         <AboutS>
             <Aside />
             <section className="allSection">
-                <div className="title"><h1 className="NameTitle">SOBRE MIM</h1>
-                </div>
                 <div className="margin">
                     <AboutMe />
                 </div>
-                <div className="title"><h1 className="NameTitle">EXPERIÊNCIAS</h1>
+                <div className="margin">
+                    <Portfolio />
                 </div>
                 <div className="margin">
                     <Ex/>
+                </div>
+                <div className="margin">
+                    <Contact/>
                 </div>
 
 

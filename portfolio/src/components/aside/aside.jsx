@@ -14,8 +14,8 @@ const Aside = () => {
                     <ul>
                         <li>Home</li>
                         <li>Sobre Mim</li>
-                        <li>Experiências</li>
                         <li>Portfólio</li>
+                        <li>Experiências</li>
                         <li>Contato</li>
                     </ul>
                     <div className="linha" />

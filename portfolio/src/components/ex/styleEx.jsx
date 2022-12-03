@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
 export const ExS = styled.section`
+
+.exPS{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-
+}
     .study{
         width: 35%;
         background-color: black;
@@ -22,10 +24,14 @@ export const ExS = styled.section`
             margin-bottom: 15px;
         }
     }
-    .myProjects{
+    .profission{
         width: 60%;
-        .carousel{
-            width: 100%;
+        .lineBottom{
+            border-bottom: 3px dashed black;
+        }
+        li{
+            list-style: square;
+            font-size: 14px;
         }
     }
 `

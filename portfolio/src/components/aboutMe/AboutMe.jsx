@@ -18,6 +18,7 @@ import { SiJquery } from 'react-icons/si';
 const AboutMe = () => {
     return (
         <AboutMeS>
+            <div className="title"><h1 className="NameTitle">SOBRE MIM</h1></div>
             <div className="textAboutMe">
                 <h1>
                     Eu sou <strong>Sávio Freire</strong>, Desenvolvedor Front-End
