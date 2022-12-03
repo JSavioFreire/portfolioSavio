@@ -16,10 +16,16 @@ export const ExS = styled.section`
             text-indent: 10px;
         }
         li{
-            font-size: 13px;
+            font-size: 12px;
             list-style: square;
             margin-left: -20px;
             margin-bottom: 15px;
+        }
+    }
+    .myProjects{
+        width: 60%;
+        .carousel{
+            width: 100%;
         }
     }
 `

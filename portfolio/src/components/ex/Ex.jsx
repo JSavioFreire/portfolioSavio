@@ -1,10 +1,12 @@
+import CarouselPro from "./carousel/Carousel"
 import { ExS } from "./styleEx"
 
 const Ex = () => {
     return (
         <ExS>
-            <div>
+            <div className="myProjects">
                 <h2>Meus projetos pessoais:</h2>
+                <div className="carousel"><CarouselPro/></div>
             </div>
             <div className="study">
                 <h2>Estudos</h2>
