@@ -13,7 +13,7 @@ const AboutMe = () => {
             </div>
             <div className="iDo">
                 <div>
-
+                    <h1>Minhas tecnologias</h1>
                 </div>
             </div>
 

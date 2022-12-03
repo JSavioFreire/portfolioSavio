@@ -2,6 +2,8 @@ import { HomeS } from "./styleHome"
 
 import { Link } from "react-router-dom"
 
+import fotoMinha from '/savioF.png'
+
 const Home = () => {
     return (
         <HomeS>
@@ -22,6 +24,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="right">
+                <img src={fotoMinha}/>
             </div>
         </HomeS>
     )

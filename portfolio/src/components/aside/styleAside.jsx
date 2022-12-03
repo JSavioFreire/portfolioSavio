@@ -10,9 +10,17 @@ export const AsideS = styled.aside`
         background-color: ${({ theme }) => theme.colors.primary};
 
         .foto{
-            height: 200px;
-            background-color: white;
+            height: 250px;
+            background-color: ${({theme}) => theme.colors.background};
             width: 100%;
+            position: relative;
+            img{
+                width: 200px;
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+            }
         }
         .linha{
             position: absolute;

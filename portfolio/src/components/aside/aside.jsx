@@ -1,10 +1,15 @@
 import { AsideS } from "./styleAside"
 
+import fotoMinha from '/savioF.png'
+
+
 const Aside = () => {
     return (
         <AsideS>
             <aside>
-                <div className="foto">Foto</div>
+                <div className="foto">
+                    <img src={fotoMinha} alt="Minhafoto" />
+                </div>
                 <nav>
                     <ul>
                         <li>Home</li>

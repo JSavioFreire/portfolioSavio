@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const AboutMeS = styled.section`
     display: flex;
     flex-direction: column;
-
     .textAboutMe{
 
         h1{
@@ -14,13 +13,20 @@ export const AboutMeS = styled.section`
         p{
             text-align: justify;
             font-size: 15px;
+            text-indent: 15px;
         }
         font-weight: 400;
     }
     .iDo{
         background-color: black;
         width: 60%;
-        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        div{
+            width: 80%;
+            height: 80%;
+        }
     }
 
 

@@ -75,6 +75,15 @@ export const HomeS = styled.section`
 
     .right{
         background-color: ${({theme}) => theme.colors.background};
+        position: relative;
+        display: flex;
+        justify-content: center;
+        img{
+            width: 500px;
+            position: absolute;
+            bottom: 0;
+        }
+
     }
 
 
