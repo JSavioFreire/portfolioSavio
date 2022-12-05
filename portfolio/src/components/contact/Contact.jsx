@@ -6,13 +6,10 @@ import { FaWhatsappSquare } from 'react-icons/fa';
 import { FaInstagramSquare } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 
-
-
-
 const Contact = () => {
   return (
     <ContactS>
-      <div className="title"><h1 className="NameTitle">FALE COMIGO</h1></div>
+      <div className="title" id="contact"><h1 className="NameTitle">FALE COMIGO</h1></div>
       <h2>Qualquer dúvida, sinta-se a vontade para entrar em contato.</h2>
       <section>
           <div className="links">

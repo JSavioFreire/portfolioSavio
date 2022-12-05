@@ -8,7 +8,6 @@ export const AsideS = styled.aside`
         left: 0;
         width: 15%;
         background-color: ${({ theme }) => theme.colors.primary};
-
         .foto{
             height: 250px;
             background-color: ${({theme}) => theme.colors.background};
@@ -52,6 +51,10 @@ export const AsideS = styled.aside`
                 background-color: ${({theme}) => theme.colors.primary};
                 padding: 10px;
                 cursor: pointer;
+                a{
+                    color: black;
+                    text-decoration: none;
+                }
             }
         }
 

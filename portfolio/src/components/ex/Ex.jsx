@@ -5,7 +5,7 @@ import atend2 from '/atendimento2.png'
 const Ex = () => {
     return (
         <ExS>
-            <div className="title"><h1 className="NameTitle">EXPERIÊNCIAS</h1></div>
+            <div className="title" id="ex"><h1 className="NameTitle">EXPERIÊNCIAS</h1></div>
             <div className="exPS">
                 <div className="profission">
                     <div>
@@ -50,7 +50,7 @@ const Ex = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="study">
+                <div className="study" data-aos="fade-left">
                     <h2>Estudos</h2>
                     <ul>
                         <li>Cursando Análise e Desenvolvimento de Sistemas na universidade Estácio de Sá</li>
@@ -68,11 +68,11 @@ const Ex = () => {
                     </ul>
                 </div>
             </div>
-            <div className="client">
+            <div className="client" data-aos="fade-up">
                 <h2>Depoimento de alguns dos clientes:</h2>
                 <div>
-                    <img src={atend}/>
-                    <img src={atend2}/>
+                    <img src={atend} />
+                    <img src={atend2} />
                 </div>
             </div>
         </ExS>

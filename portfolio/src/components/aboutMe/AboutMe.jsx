@@ -18,7 +18,7 @@ import { SiJquery } from 'react-icons/si';
 const AboutMe = () => {
     return (
         <AboutMeS>
-            <div className="title"><h1 className="NameTitle">SOBRE MIM</h1></div>
+            <div className="title" id='about'><h1 className="NameTitle">SOBRE MIM</h1></div>
             <div className="textAboutMe">
                 <h1>
                     Eu sou <strong>Sávio Freire</strong>, Desenvolvedor Front-End
@@ -27,9 +27,8 @@ const AboutMe = () => {
                     Meu nome é Sávio Freire, tenho 24 anos, sou casado e sou um amante de tecnologia. Gosto muito de me desafiar, e como um nerdola nato, sempre gostei de quebra-cabeças e jogo difíceis, acredito que seja por isso que me apaixonei pela programação; Como em um game por exemplo, são nas áreas mais complicadas e desafiadoras que encontramos as maiores recompensas, e pra mim, nada é mais recompensador do que ver o meu site bonitão, meu código lindo e tudo funcionando corretamente.
                 </p>
             </div>
-
             <div className="flex">
-                <div className="iDo">
+                <div className="iDo" data-aos="fade-right">
                     <div>
                         <h1>Tecnologias que utilizo:</h1>
                         <div className="tec" id="lineBottom">
@@ -67,8 +66,6 @@ const AboutMe = () => {
                     </p>
                 </div>
             </div>
-
-
         </AboutMeS>
     )
 }

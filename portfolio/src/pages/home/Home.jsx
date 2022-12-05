@@ -15,7 +15,7 @@ const Home = () => {
                         <h3>DESENVOLVEDOR FRONT-END</h3>
                     </div>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque iure, atque tempora sit a earum, fugiat autem consequatur optio quaerat porro. Placeat sint quisquam error vitae ad! Dolore, fugiat aut?
+                        Bem-vindo ao meu WebSite, espero que goste!
                     </p>
                     <div className="bt">
                         <Link to='/about'><button>VER MAIS SOBRE MIM</button></Link>

@@ -6,7 +6,15 @@ import About from './pages/about/About'
 import { Global, theme } from './global/StyleGlobal'
 import { ThemeProvider } from 'styled-components'
 
+import AOS from 'aos';
+import { useEffect } from "react";
+import 'aos/dist/aos.css';
+
 function App() {
+
+  useEffect(()=>{
+    AOS.init({duration: 500});
+},[])
 
   return (
     <ThemeProvider theme={theme}>

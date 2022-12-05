@@ -13,7 +13,7 @@ const About = () => {
             <Aside />
             <section className="allSection">
                 <div className="margin">
-                    <AboutMe />
+                    <AboutMe/>
                 </div>
                 <div className="margin">
                     <Portfolio />

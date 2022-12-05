@@ -6,8 +6,14 @@ export const Global = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         font-family: ${({theme}) => theme.fonts.title};
-
     }
+    html{
+        scroll-behavior: smooth;
+    }
+
+    :root {
+    --swiper-theme-color: ${({theme}) => theme.colors.primary};
+}
 `
 
 export const theme = {
