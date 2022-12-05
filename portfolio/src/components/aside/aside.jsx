@@ -22,6 +22,9 @@ const Aside = () => {
                     <div className="linha" />
                 </nav>
             </aside>
+            <aside className="mobile">
+
+            </aside>
         </AsideS>
     )
 }

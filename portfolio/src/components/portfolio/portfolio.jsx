@@ -4,7 +4,6 @@ import { PortS } from "./stylePortfolio"
 
 const Portfolio = () => {
 
-
     return (
         <PortS>
             <div className="title" id="port"><h1 className="NameTitle">PORTFÓLIO</h1></div>

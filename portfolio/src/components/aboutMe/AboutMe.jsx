@@ -13,6 +13,8 @@ import { FaNode } from 'react-icons/fa';
 import { DiSass } from 'react-icons/di';
 import { FaPython } from 'react-icons/fa';
 import { SiJquery } from 'react-icons/si';
+import { SiFlutter } from 'react-icons/si';
+
 
 
 const AboutMe = () => {
@@ -48,6 +50,7 @@ const AboutMe = () => {
                             <FaPython />
                             <FaNode />
                             <DiSass />
+                            <SiFlutter />
                         </div>
                     </div>
                 </div>

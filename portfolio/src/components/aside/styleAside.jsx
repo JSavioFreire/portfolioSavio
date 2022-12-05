@@ -54,9 +54,29 @@ export const AsideS = styled.aside`
                 a{
                     color: black;
                     text-decoration: none;
+                    :hover{
+                        transition: .5s;
+                        color: white;
+                    }
                 }
             }
-        }
+        }    
+    }
 
+
+    .mobile{
+        display: none;
+    }
+
+
+
+    @media screen and (max-width: 900px){
+        aside{
+            display: none;
+        }
+        .mobile{
+            display: flex;
+        }
+        
     }
 `
