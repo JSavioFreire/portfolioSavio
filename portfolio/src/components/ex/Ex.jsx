@@ -1,4 +1,6 @@
 import { ExS } from "./styleEx"
+import atend from '/atendimento.png'
+import atend2 from '/atendimento2.png'
 
 const Ex = () => {
     return (
@@ -64,6 +66,13 @@ const Ex = () => {
                     <ul>
                         <li>Inglês Intermediário</li>
                     </ul>
+                </div>
+            </div>
+            <div className="client">
+                <h2>Depoimento de alguns dos clientes:</h2>
+                <div>
+                    <img src={atend}/>
+                    <img src={atend2}/>
                 </div>
             </div>
         </ExS>

@@ -63,7 +63,7 @@ const AboutMe = () => {
                         O que eu quero aprender?
                     </h1>
                     <p>
-                        Acredito que as minhas melhores qualidades são a curiosidade e o foco. E quando junto as duas para fazer algo que eu gosto, tudo fica mais fácil. E eu tenho muita curiosidade em me aprofundar em TypeScript para evoluir como Front-end. Mas minha curiosidade não está presa apenas para aprender Front-end, também tenho muita vontade de aprender alguma liguagem do Back-end como Python.
+                        Acredito que as minhas melhores qualidades são a curiosidade e o foco, e quando junto as duas para fazer algo que eu gosto, tudo fica mais fácil. E eu tenho muita curiosidade em me aprofundar em TypeScript para evoluir como Front-end. Mas minha curiosidade não está presa apenas para aprender Front-end, também tenho muita vontade de aprender alguma liguagem do Back-end como Python.
                     </p>
                 </div>
             </div>

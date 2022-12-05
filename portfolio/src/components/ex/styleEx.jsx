@@ -34,4 +34,24 @@ export const ExS = styled.section`
             font-size: 14px;
         }
     }
+    .client{
+        width: 100%;
+        display: flex;
+        background-color: black;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 20px;
+            img{
+                border-radius: 20px;
+                width: 45%;
+                height: 140px;
+            }
+        }
+    }
 `
