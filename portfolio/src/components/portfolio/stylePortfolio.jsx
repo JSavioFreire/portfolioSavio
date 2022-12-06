@@ -21,7 +21,7 @@ export const PortS = styled.section`
             background-color: black;
             color: white;
             width: 100%;
-            height: 430px;
+            height: 450px;
             padding: 5px 0;
             
             a{
@@ -58,6 +58,13 @@ export const PortS = styled.section`
                 .less{
                     font-size: 10px;
                 }
+            }
+        }
+    }
+    @media screen and (max-width: 900px){
+        .eachProject{
+            .title{
+                margin-bottom: -20px !important;
             }
         }
     }

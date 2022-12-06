@@ -48,7 +48,7 @@ export const AboutMeS = styled.section`
                     
                 }
             :first-of-type{
-                border-bottom: 2px dashed ${({theme}) => theme.colors.primary};
+                border-bottom: 2px dashed ${({ theme }) => theme.colors.primary};
             }
             }
         }
@@ -65,4 +65,20 @@ export const AboutMeS = styled.section`
     }
 
 
+
+
+
+    @media screen and (max-width: 900px){
+        .flex{
+            flex-direction: column  ;
+        }
+        .iDo{
+            width: 100%;
+        }
+        .iNow{
+            margin-top: 20px;
+            width: 100%;
+        }
+
+    }
 `

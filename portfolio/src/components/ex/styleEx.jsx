@@ -54,4 +54,33 @@ export const ExS = styled.section`
             }
         }
     }
+
+    
+    @media screen and (max-width: 900px){
+        .exPS{
+            flex-direction: column-reverse;
+        }
+        .profission{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .study{
+            width: 90%;
+            margin: 20px auto;
+        }
+        .client{
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            div{
+                flex-direction: column;
+                img{
+                border-radius: 20px;
+                width: 95%;
+                height: 140px;
+                margin-top: 20px;
+            }
+            }
+        }
+    }
 `

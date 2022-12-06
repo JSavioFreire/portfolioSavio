@@ -24,4 +24,29 @@ export const AboutS = styled.section`
             font-weight: 800;
         }
     }
+    @media screen and (max-width: 900px){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .margin{
+            width: 100%;
+            margin: 0 auto;
+
+        }
+        .allSection{
+            width: 90%;
+        margin: 0 auto;
+
+        }
+        .title{
+            margin-bottom: 0 !important;
+
+        }
+        .NameTitle{
+            font-size: 35px !important;
+            padding: 30px 50px !important;
+
+        }
+
+    }
 `

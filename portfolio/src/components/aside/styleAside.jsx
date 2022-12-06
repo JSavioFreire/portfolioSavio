@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const AsideS = styled.aside`
+position: relative;
  aside{
         position: fixed;
         height: 100vh;
@@ -63,10 +64,6 @@ export const AsideS = styled.aside`
         }    
     }
 
-
-    .mobile{
-        display: none;
-    }
 
 
 

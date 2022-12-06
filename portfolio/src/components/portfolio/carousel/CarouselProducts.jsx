@@ -12,14 +12,29 @@ import movieImg from '/movie.png'
 import store from '/store.png'
 
 import { Pagination, Autoplay, Navigation } from "swiper";
+import { useState,useEffect } from "react";
 
 export default function CarouselProducts() {
+
+    const [maxWidth, setMaxWidth] = useState(2)
+
+    var width = window.screen.width;
+
+    useEffect(()=>{
+        if(width > 800){
+            setMaxWidth(2)
+        }
+        else{
+            setMaxWidth(1)
+        }    
+    },[])
+    
+    
     return (
         <>
             <Swiper
-                slidesPerView={2}
+                slidesPerView={maxWidth}
                 spaceBetween={3}
-
                 autoplay={{
                     delay: 3500,
                     disableOnInteraction: false,
@@ -40,7 +55,6 @@ export default function CarouselProducts() {
                 <SwiperSlide>
                 <EachProject name='Loja' image={store} description='Loja simples com poucas funcionalidades, mas que possui um carrinho e alguns produtos vindos de uma API.' link='https://projeto-teste-78cde.web.app/' tec='ReactJs | Context Api | Styled Components | Java Script | Fetch | Vite | React Icons | Firebase '/>
                 </SwiperSlide>
-
             </Swiper>
         </>
     );

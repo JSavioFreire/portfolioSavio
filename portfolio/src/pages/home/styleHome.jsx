@@ -5,14 +5,13 @@ export const HomeS = styled.section`
     width: 100%;
     display: flex;
 
-    div{
-    }
+    
     .left{
         text-shadow: 2px 2px 5px #1111111f;
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 70%;
+        width: 100%;
         .write{
             width: 70%;
             display: flex;
@@ -52,8 +51,7 @@ export const HomeS = styled.section`
         .bt{
             display: flex;
             align-items: center;
-            justify-content: center;
-            text-decoration: none;
+                text-decoration: none;
         }
         button{
             background-color: ${({theme}) => theme.colors.primary};
@@ -69,23 +67,5 @@ export const HomeS = styled.section`
             }
         }
     }
-
-
-
-
-    .right{
-        background-color: ${({theme}) => theme.colors.background};
-        position: relative;
-        display: flex;
-        justify-content: center;
-        width: 30%;
-        img{
-            width: 100%;
-            position: absolute;
-            bottom: 0;
-        }
-
-    }
-
 
 `
